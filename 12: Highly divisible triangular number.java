@@ -28,8 +28,8 @@ public class FactorChecker{
 	    	triangleNumber += i;
 	    	
 	    	if(checkFactors(triangleNumber) >= NUMBER_OF_FACTORS_TO_CHECK_FOR){
-	    		System.out.println("Triangle Numbers " + triangleNumber);
-	    		System.out.println("Number of Factors " + numberOfFactors + "\n");
+	    		System.out.println("Triangle Number: " + triangleNumber);
+	    		System.out.println("Number of Factors: " + numberOfFactors);
 	        break;
 	        
 	    	} else numberOfFactors = 0;
