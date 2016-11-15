@@ -12,7 +12,6 @@ public class FactorChecker{
 	    if(number % Math.sqrt((double) number) == 0) numberOfFactors++;
 	    
 	    for(int i = sqrt - 1; i > 0; i--){
-	      
 	      if((number % i) == 0) numberOfFactors += 2;
 	      else continue;
 	      
@@ -24,7 +23,6 @@ public class FactorChecker{
 		int triangleNumber = 0;
     
 	    for(int i = 1; i < AMMOUNT_OF_TRIANGLE_NUMBERS_TO_CHECK; i++){
-	    	
 	    	triangleNumber += i;
 	    	
 	    	if(checkFactors(triangleNumber) >= NUMBER_OF_FACTORS_TO_CHECK_FOR){
