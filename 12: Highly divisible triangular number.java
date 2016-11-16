@@ -1,3 +1,5 @@
+import java.lang.Math;
+
 public class FactorChecker{
 	
 	static final int AMMOUNT_OF_TRIANGLE_NUMBERS_TO_CHECK = 100000;
