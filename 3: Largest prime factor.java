@@ -2,7 +2,7 @@ import java.lang.Math;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Tests {
+public class PrimeFactors {
 	
 	public static ArrayList<Long> primeFactors = new ArrayList<Long>();
 	
